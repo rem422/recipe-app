@@ -1,12 +1,46 @@
-# React + Vite
+🍽️ Recipe Hub - MERN App
+A full-stack Recipe Management App built with the MERN stack (MongoDB, Express, React, Node.js). Users can browse, add, edit, and delete their favorite recipes, complete with ingredients, instructions, and images.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tech Stack
+Frontend: React + Vite + Tailwind CSS
 
-Currently, two official plugins are available:
+Backend: Node.js + Express
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Database: MongoDB (Mongoose)
 
-## Expanding the ESLint configuration
+Authentication: JWT + bcrypt
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+API: RESTful
+
+Deployment: Render (Frontend & Backend)
+
+✨ Features
+📝 Create, edit, and delete recipes
+
+📸 Upload images for recipes
+
+🔍 Search and filter by recipe name or ingredients
+
+🛡️ User authentication with JWT
+
+❤️ Save favorite recipes (optional)
+
+💬 Responsive UI with Tailwind CSS
+
+📦 Installation
+bash
+Copy
+Edit
+# Clone repo
+git clone https://github.com/your-username/recipe-hub.git
+
+# Navigate to project directory
+cd recipe-hub
+
+# Install server and client dependencies
+npm install && cd client && npm install
+
+# Run both frontend and backend
+cd .. && npm run dev
+🌐 Live Demo
+🔗 Visit Live App
